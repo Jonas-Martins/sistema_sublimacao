@@ -1,0 +1,11 @@
+.formCadastro{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.formCadastro form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+

@@ -1,0 +1,64 @@
+.divTabela{
+    width: 100%;
+    overflow:auto;
+}
+
+.consult{
+    width: 100%;
+}
+.consult th, .consult td{
+    padding: 10px;
+    border: solid black 1px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btnTabela{
+    display: flex;
+    justify-content: space-between;
+}
+.btnTabela button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 3px;
+    padding: 0;
+}
+
+.consult .qtTabela{
+    background: transparent;
+    border: none;
+    width: 45px;
+}
+
+.consult .inputTabela{
+    background: transparent;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.formPesquisar{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.btnPesquisar{
+    background: transparent;
+    border-radius: 10px;
+    margin-left: 5px;
+    width: 40px;
+    height: 30px;
+    border: solid gray 1px;
+}
+.formPesquisar input{
+    border: solid gray 1px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
